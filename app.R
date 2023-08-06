@@ -23,7 +23,15 @@ ui <- dashboardPage(
                                    value = mean(gapminder$lifeExp),
                                    step = 1)
                 ),
-                column(width = 6,
+                fluidRow(
+                  box(
+                    width = 2, background = "black",
+                    "The 'Charts' page consists of four interactive charts and a slider input. Please use the slider"),
+                  box(
+                    width = 2, background = "orange",
+                    "The charts are updated based on the selected life expectancy value using the slider input")),
+                infoBox("total_population", "Total Population", value = sum(gapminder$pop)),
+                column(width = 12,
                        plotOutput("bar_chart")
                 )
               ),

@@ -1,0 +1,13 @@
+name: RShinyGapminderProject
+title: RShinyGapminderProject
+username: runtest
+account: runtest
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9563167
+bundleId: 7537582
+url: https://runtest.shinyapps.io/RShinyGapminderProject/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Shiny Project Gapminder Data.pptx
