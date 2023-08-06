@@ -56,7 +56,7 @@ ui <- dashboardPage(
               p("Box Plot: This chart displays the distribution of GDP per capita for different continents. Each continent is represented by a box plot, showing the median, quartiles, and outliers of GDP per capita."),
               p(" Line Chart: This chart illustrates the trend of GDP per capita over the years for different continents. Each continent is represented by a different colored line, allowing users to compare the economic growth of continents over time."),
               h2("Code Available On"),
-              p("https://github.com/runal-pal?tab=repositories")
+              p("https://github.com/runal-pal/R-Shiny-Project-Gapminder")
       )
     )
   )
